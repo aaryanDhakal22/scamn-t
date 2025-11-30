@@ -1,4 +1,4 @@
-🛡️ Phishing Flooder — Defensive Automation Against a Real-World Attack
+# 🛡️ Phishing Flooder - Defensive Automation Against a Real-World Attack
 
 (Created after a family phishing incident)
 
@@ -22,12 +22,12 @@ This does not hack anything, does not break into systems, and works only on open
 
 It simply automates typing fake credentials into the phishing page.
 
-⚠️ Disclaimer
+### ⚠️ Disclaimer
 This project is for educational and defensive cybersecurity awareness only.
 Do not use it against legitimate systems. Automation against phishing sites is allowed only when the malicious form is already publicly accessible.
 I am not responsible for any misuse.
 
-🎯 Purpose
+### 🎯 Purpose
 
 This script was created strictly for phishing response mitigation after a real attack.
 The goals were:
@@ -40,7 +40,7 @@ Show that a few lines of Python can disrupt low-effort cybercriminal operations
 
 Encourage friends/family to understand and recognize phishing attempts
 
-🧠 How It Works
+### 🧠 How It Works
 
 The phishing page was just a simple username/password form.
 This script:
@@ -57,7 +57,7 @@ Navigates back and continues the loop
 
 It’s essentially a “credential spammer” that overloads the attacker with meaningless data.
 
-📁 Files
+### 📁 Files
 
 main.py — Main automation script
 
@@ -67,7 +67,7 @@ pass.txt — List of throwaway passwords
 
 (All sample data must be non-sensitive.)
 
-🧾 Lessons Learned
+### 🧾 Lessons Learned
 
 Even convincing phishing websites can be identified by inspecting the URL.
 
@@ -77,7 +77,7 @@ Flooding malicious data collection points is a surprisingly effective method to 
 
 Teaching non-technical users to spot suspicious links is the best long-term defense.
 
-🛡️ Final Note
+### 🛡️ Final Note
 
 I don’t know how much of the prevention was due to this script — but none of our mutual friends were hacked afterward, and that alone made the effort worth it.
 
